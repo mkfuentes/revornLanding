@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/revornLanding/static/css/main.d9d7c9fb.css",
-    "main.js": "/revornLanding/static/js/main.c5fa039b.js",
+    "main.js": "/revornLanding/static/js/main.d6784904.js",
     "static/js/787.66b477fd.chunk.js": "/revornLanding/static/js/787.66b477fd.chunk.js",
     "static/media/R_truck.jpg": "/revornLanding/static/media/R_truck.b9ac11fcc6836ab86ef7.jpg",
     "index.html": "/revornLanding/index.html",
     "main.d9d7c9fb.css.map": "/revornLanding/static/css/main.d9d7c9fb.css.map",
-    "main.c5fa039b.js.map": "/revornLanding/static/js/main.c5fa039b.js.map",
+    "main.d6784904.js.map": "/revornLanding/static/js/main.d6784904.js.map",
     "787.66b477fd.chunk.js.map": "/revornLanding/static/js/787.66b477fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9d7c9fb.css",
-    "static/js/main.c5fa039b.js"
+    "static/js/main.d6784904.js"
   ]
 }
