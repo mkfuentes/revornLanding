@@ -222,15 +222,11 @@ function App() {
         </div>
 
         <motion.div className="right_content_wrapper">
-          <motion.img src={process.env.PUBLIC_URL + '../images/truck.png'} alt="bg" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
+          <motion.img src={process.env.PUBLIC_URL + '/images/truck.png'} alt="bg" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
         </motion.div>
       </motion.div>
 
       <Card/>
-
-
-
-
     </motion.div>
   );
 }

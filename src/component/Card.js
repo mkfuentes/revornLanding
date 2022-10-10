@@ -2,7 +2,8 @@ import React from 'react';
 import {FaCarSide, FaCalendarCheck, FaBatteryFull} from "react-icons/fa";
 import { IconContext } from "react-icons";
 import {BsRecycle, BsScrewdriver, BsPlug} from 'react-icons/bs'
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
+import image from '../images/R_truck.jpg'
 
 let easing = [0.6,-0.05,0.01,0.99];
 
@@ -150,7 +151,7 @@ Hi, I'm Miguel, I'm 30 years old and I'm from Mexico City.
 I'm a computational systems enginneer and since I was a child I always knew that I wanted to do something important and maybe like many of you I wanted to change the world.
               Today I am looking for your support in order to make that dream come true.
               <br />
-              <img src="./images/R_truck.jpg" alt="" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
+              <img src={image} alt="" initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .5, delay: 0.8 }} />
 
 <h2>Abstract</h2><br />
 My long-term plan is to own a workshop and have a robust platform for the restoration and electrification of old and new models that contribute to poor air quality, climate change and gases that affect our health.
