@@ -3,7 +3,8 @@ import {FaBehance, FaLinkedin} from 'react-icons/fa';
 import {IoMailOutline, IoChevronForwardCircle, IoStar} from 'react-icons/io5';
 import {IconContext} from "react-icons";
 import Card from './component/Card';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet';
 
 let easeing = [0.6,-0.05,0.01,0.99];
 
@@ -129,6 +130,11 @@ const header={
 function App() {
   return (
     <motion.div initial='initial' animate='animate'>
+      <Helmet>
+        <title>Revorn</title>
+        <meta name="description" content="Revorn" />
+        <meta name="theme-color" content="#008f68" />
+      </Helmet>
       <motion.header variants={stagger}>
           <motion.div className="logo_wrapper" variants={header}>R<span>EV</span>ORN</motion.div>
           <motion.div className="menu_container" variants={stagger}>
